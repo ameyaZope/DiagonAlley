@@ -1,6 +1,9 @@
-<%@ include file="common/header.jspf"%>
-<%@ include file="common/navbar.jspf"%>
+<#import "common/header.ftl" as headers>
+<#import "common/navbar.ftl" as navbars>
+<#import "common/footer.ftl" as footers>
 
+<@headers.createHeader />
+<@navbars.createStickyNavBar />
 
 <div class="container">
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -42,13 +45,10 @@
   </a>
 </div>
 
-<h1>Diagon Alley : The One Stop Shop for the Online Buyer</h1>
-Diagon Alley is a cobblestoned wizarding alley and shopping area located in London, England behind a pub called the Leaky Cauldron.[2] Inside the alley is an assortment of restaurants, shops, and other sights. All items on the Hogwarts supply list can be bought at Diagon Alley. The alley is completely hidden from the Muggle world which is right outside of its boundaries. It is very large in area and essentially the centre of wizarding London.
+<h1>Diagon Alley : The One Stop Shop for the Harry Potter Fan</h1>
+Diagon Alley is a cobblestoned wizarding alley and shopping area located in London, England behind a pub called the Leaky Cauldron. Inside the alley is an assortment of restaurants, shops, and other sights. All items on the Hogwarts supply list can be bought at Diagon Alley. The alley is completely hidden from the Muggle world which is right outside of its boundaries. It is very large in area and essentially the centre of wizarding London.
 
 
 </div>
 
-
-
-
-<%@ include file="common/footer.jspf"%>
+<@footers.createFooter />

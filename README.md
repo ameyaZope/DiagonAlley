@@ -22,3 +22,8 @@ Key Points to note regarding this web app
 2. All the images are stored inside the server in the location resources-->static-->images . This is the default location from which spring boot picks up the static resources. We could have changed this using a seperate java configuration file but as of now there is no need/requiremet to do the same.
 
 3. The Header has been created as a sticky header, which means that the nav bar will always remain at the top even while scrolling, this functionality of making a navbar sticky is done by adding "sticky-top" as a class of the topmost declaration of the nav bar 
+
+
+### Navbar Search Feature
+
+The search feature currently searches by a regex based searching.
